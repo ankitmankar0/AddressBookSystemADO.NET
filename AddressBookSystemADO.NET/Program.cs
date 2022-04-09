@@ -14,10 +14,22 @@ namespace AddressBookSystemADO.NET
             //addressBookManagement.DataBaseConnection();
 
             //UC2
-            addressBookManagement.GetAllContact();
+            //addressBookManagement.GetAllContact();
 
             //UC3
-            AddNewContactDetails();
+            //AddNewContactDetails();
+
+            //UC4                                                      // Zip,   FirstName, LastName
+            //Console.WriteLine(addressBookManagement.EditContactUsingName("442207", "Ekta", "Kapoor") ? "Update Record successfully\n" : "Update failed");
+
+            //UC5
+            //Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kapoor") ? "Record Deleted successfully\n" : "Delete failed");
+
+            //UC6
+            //addressBookManagement.RetrieveContactFromCityOrStateName();
+
+            //UC7
+            addressBookManagement.CountByCityOrState();
         }
 
         /* UC3:- Ability to insert new Contacts to Address Book */
