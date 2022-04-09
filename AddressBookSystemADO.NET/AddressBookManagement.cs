@@ -35,7 +35,6 @@ namespace AddressBookSystemADO.NET
             {
                 Console.WriteLine(ex.Message);
             }
-
         }
     }
 }
